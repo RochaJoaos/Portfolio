@@ -13,7 +13,6 @@
         <nav>
             <a href="#">Inicio</a>
             <a href="#">Sobre mim</a>
-            <a href="#">Ferramentas</a>
             <a href="#">Projetos</a>
             <a href="#">Contato</a>
         </nav>
@@ -21,13 +20,13 @@
     <main>
         <section id="inicio">
             <h1>Olá,</h1>
-            <p>Sou João Henrique, desenvolvedor front-end e este é meu site, aqui estão coisas feitas por mim.</p>
+            <p id="paragrafo">Sou João Henrique, desenvolvedor front-end e este é meu site, aqui estão coisas feitas por mim.</p>
             <div id="contacts">
                 <div class="icons">
-                    <img src="image/contato/linkedin.png" alt="linkedin">
+                    <img src="image/contato/linkedin.png" alt="linkedin" onclick="linkedinLink()">
                 </div>
                 <div class="icons">
-                    <img src="image/contato/github.png" alt="github">
+                    <img src="image/contato/github.png" alt="github" onclick="githubLink()">
                 </div>
                 <div class="icons">
                     <img src="image/contato/instagram.png" alt="instagram">
@@ -36,13 +35,19 @@
             <img src="image/computer.png" alt="Computador antigo" id="computer">
         </section>
         <section id="about">
-            <picture>
-                <img id="perfil" src="image/perfil/eu.jpg" alt="Foto de perfil">
-            </picture>
-            <div id="inf">
-                <h2>João Henrique S. Rocha</h2>
-                <h3>17 anos - 10/07/2005</h3>
-            </div>
+
+        </section>
+        <section id="tools">
+            <h2>Denselvovidos com</h2>
+            <div class="web-tools">
+                <p id="html">Html</p>
+                <p id="css">Css</p>
+                <p id="js">Js</p>
+            </div> 
+        </section>
+        <section id="projects">
+        </section>
+        <section id="contact">
         </section>
     </main>
     <footer>

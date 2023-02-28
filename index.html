@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <script src="code.js"></script>
     <title>Portfólio</title>
 </head>
+
 <body>
     <header>
         <nav>
@@ -19,30 +21,37 @@
     </header>
     <main>
         <section id="inicio">
-            <h1>Olá,</h1>
-            <p id="paragrafo">Sou João Henrique, desenvolvedor front-end e este é meu site, aqui estão coisas feitas por mim.</p>
+            <h1 id="title">
+                <strong>João Henrique</strong>
+                <br>
+                Desenvolvedor <em>Front-end</em>
+            </h1>
             <div id="contacts">
                 <div class="icons">
-                    <img src="image/contato/linkedin.png" alt="linkedin" onclick="linkedinLink()">
+                    <img class="icon-img"src="image/contato/linkedin.png" alt="linkedin" onclick="linkedinLink()">
                 </div>
                 <div class="icons">
-                    <img src="image/contato/github.png" alt="github" onclick="githubLink()">
+                    <img class="icon-img"src="image/contato/github.png" alt="github" onclick="githubLink()">
                 </div>
                 <div class="icons">
-                    <img src="image/contato/instagram.png" alt="instagram">
-                </div>                
+                    <img class="icon-img"src="image/contato/instagram.png" alt="instagram">
+                </div>
             </div>
             <img src="image/computer.png" alt="Computador antigo" id="computer">
         </section>
         <section id="about">
+            <img id="perfil" src="image/perfil/eu.jpg" alt="foto de perfil">
+            <div id="text-about">
+
+            </div>
         </section>
         <section id="tools">
-            <h2>Denselvovidos com</h2>
+            <h2 id="dev">Denselvovidos com</h2>
             <div class="web-tools">
                 <p id="html">Html</p>
                 <p id="css">Css</p>
                 <p id="js">Js</p>
-            </div> 
+            </div>
         </section>
         <section id="projects">
         </section>
@@ -53,4 +62,5 @@
 
     </footer>
 </body>
+
 </html>

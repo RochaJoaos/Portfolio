@@ -130,18 +130,43 @@ em{
     width: 90vw;
     height: 42vw;
     padding: 50px;
+
 }
 
 #perfil{
     width: 300px;
     height: 300px;
-    border-radius: 10%;
+    margin: 50px;
+    border-radius: 1%;
+    box-shadow: 10px 0px 1px var(--palette-03);
+    position: absolute;
+    top: 33%;
+    left: 20%;
+    transform: translate(-50%, -50%);
 }
 
 #text-about{
     width: 600px;
     height: 450px;
-    background-color: var(--palette-03);
+    border: 2px solid var(--palette-03);
+    border-radius: 1%;
+    box-shadow: -15px 0px 1px var(--palette-03);
+    position: absolute;
+    top: 40%;
+    left: 63%;
+    transform: translate(-50%, -50%);
+}
+
+#title-about{
+    padding: 40px;
+    font-size: 2em;
+    color: var(--palette-03);
+}
+
+p{
+    padding: 40px;
+    font-size: 1.6em;
+    color: var(--palette-03);    
 }
 
 #tools{

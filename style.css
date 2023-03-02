@@ -8,6 +8,7 @@
     --font-color: #e0e0e0;
     --shadow-color: #00000050;
     --background: #292929;
+    --scroll-color: #1c0f2c;
 }
 
 ::-webkit-scrollbar{
@@ -15,12 +16,12 @@
 }
 
 ::-webkit-scrollbar-track{
-    background-color: transparent;
+    background-color: var(--scroll-color);
 }
 
 ::-webkit-scrollbar-thumb{
     background-color: var(--font-color);
-    border: 3px solid var(--palette-01);
+    border: 3px solid var(--scroll-color);
     border-radius: 20px;
 }
 
@@ -34,7 +35,7 @@
 
 body{
     height: 100vw;
-    background-color: var(--palette-01);
+    background-image: url(image/backgroud/space.jpg);
     font-family: 'DM Sans', Courier, monospace;
 }
 
@@ -64,18 +65,20 @@ nav > a{
 
 #inicio{
     position: relative;
-    width: 90vw;
+    width: 93
+    vw;
     height: 42vw;
     padding: 40px;
 }
 
 #title{
     color: var(--palette-02);
-    font-size: 2em;
+    font-size: 2.4em;
     text-align: center;
+    text-shadow: 3px 3px 5px var(--shadow-color);
     position: absolute;
     top: 45%;
-    left: 36%; 
+    left: 50%; 
     transform: translate(-50%, -50%);
 }
 
@@ -94,7 +97,7 @@ em{
     width: 200px;
     position: absolute;
     top: 65%;
-    left: 35%;
+    left: 50%;
     transform: translate(-50%, -50%);
 }
 
@@ -148,9 +151,10 @@ em{
 #text-about{
     width: 600px;
     height: 450px;
-    border: 2px solid var(--palette-03);
+
     border-radius: 1%;
-    box-shadow: -15px 0px 1px var(--palette-03);
+    box-shadow: 4px 4px 8px var(--shadow-color);
+    background-color: var(--background);
     position: absolute;
     top: 40%;
     left: 63%;

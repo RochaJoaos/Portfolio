@@ -137,21 +137,21 @@ em{
 }
 
 #perfil{
-    width: 300px;
-    height: 300px;
+    width: 355px;
+    height: 355px;
     margin: 50px;
     border-radius: 1%;
-    box-shadow: 10px 0px 1px var(--palette-03);
+    box-shadow: 4px 4px 8px var(--shadow-color);
     position: absolute;
-    top: 33%;
+    top: 32%;
     left: 20%;
     transform: translate(-50%, -50%);
 }
 
 #text-about{
     width: 600px;
-    height: 450px;
-
+    height: 300px;
+    padding: 30px;
     border-radius: 1%;
     box-shadow: 4px 4px 8px var(--shadow-color);
     background-color: var(--background);
@@ -162,13 +162,13 @@ em{
 }
 
 #title-about{
-    padding: 40px;
+    padding: 20px;
     font-size: 2em;
     color: var(--palette-03);
 }
 
 p{
-    padding: 40px;
+    padding: 20px;
     font-size: 1.6em;
     color: var(--palette-03);    
 }
@@ -183,6 +183,7 @@ p{
 #dev{
     font-size: 2em;
     color: var(--font-color);
+    text-shadow: 0px 0px 5px var(--background);
     padding: 2px;
     position: absolute;
     top: 15%;
@@ -233,4 +234,26 @@ p{
     font-size: 1.4em;
     font-family: "DM Sans", san-serif;
     color: var(--palette-02);
+}
+
+#projects{
+    
+}
+
+.sites{
+    background-color: var(--palette-04);
+    width: 520px;
+    height: 360px;
+    margin: 20px;
+}
+
+footer{
+    background-color: var(--shadow-color);
+    text-align: center;
+}
+
+#creditos{
+    font-size: 24px;
+    color: var(--font-color);
+    padding: 20px;
 }

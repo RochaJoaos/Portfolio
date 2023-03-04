@@ -36,6 +36,8 @@
 body{
     height: 100vw;
     background-image: url(image/backgroud/space.jpg);
+    background-size: 100%;
+    background-repeat: initial;
     font-family: 'DM Sans', Courier, monospace;
 }
 

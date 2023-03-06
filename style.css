@@ -134,10 +134,10 @@ em{
 
 #about{
     display: flex;
-    position: relative;
-    width: 90vw;
-    height: 40vw;
+    height: 36vw;
     padding: 50px;
+    background-color:  var(--palette-01);
+    position: relative;
 }
 
 #perfil{
@@ -147,7 +147,7 @@ em{
     border-radius: 1%;
     box-shadow: 4px 4px 8px var(--shadow-color);
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 20%;
     transform: translate(-50%, -50%);
 }
@@ -155,18 +155,16 @@ em{
 #text-about{
     width: 400px;
     height: 400px;
-    padding: 65px;
-    box-shadow: 4px 4px 8px var(--shadow-color);
-    background-color: var(--background);
+    padding: 80px;
     position: absolute;
-    top: 45%;
+    top: 50%;
     left: 22%;
     transform: translate(-50%, -50%);
 }
 
 #title-about{
     padding: 20px;
-    font-size: 2em;
+    font-size: 2.6em;
     color: var(--palette-03);
 }
 
@@ -254,14 +252,18 @@ p{
 
 footer{
     display: flex;
-    background-color: var(--palette-01);
     height: 42%;
+    background-color: var(--palette-01);
+    position: relative;
 }
 
 form{
     padding: 50px;
-    margin-left: 200px;
     border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
 }
 
 #title-contact{
@@ -280,10 +282,21 @@ form{
     font-size: 2em;
 }
 
+.text-contact:hover{
+    border-color: var(--palette-04);
+    background-color: var(--background);
+    color: var(--palette-04);
+}
+
+
 #creditos{
     width: 500px;
-    font-size: 4em;
-    color: var(--font-color);
     padding: 50px;
     margin: 10px;
+    font-size: 4em;
+    color: var(--font-color);
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
 }
